@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House With Tailwind</title>
-    
+
     <!-- Google Font cdn -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,13 +18,49 @@
     <!-- Tailwind cdn -->
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .manrope-font {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
 </head>
 
-<body>
+<body class="manrope-font">
     <header>
-        <h1>Hello</h1>
+        <!-- <h1>Hello</h1> -->
     </header>
-    <main>
+    <main class="max-w-screen-xl mx-auto p-16">
+        <!-- Banner Section -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-3 ">
+            <div class="space-y-7">
+                <h1 class="font-extrabold text-7xl">It's good <br>tea time at The <br>Tea House
+                </h1>
+                <p class="font-medium text-lg text-[#777777]">Tea and Botanical Solutions Supplier Give Optimum
+                    Satisfaction To Your Taste Buds.</p>
+                <button
+                    class="bg-gradient-to-r from-orange-400 to-red-600 text-white p-5 rounded-xl font-bold text-xl">Explore
+                    More <i class="fa-solid fa-arrow-right-long -rotate-45"></i></button>
+            </div>
+            <div class="relative">
+                <!-- image -->
+                <div>
+                    <img class="w-full" src="images/banner.png" alt="">
+                </div>
+                <!-- card -->
+                 <div class="flex items-center bg-white shadow-lg rounded-lg px-5 py-7 gap-3 absolute top-45 md:top-80 md:left-32 lg:left-20" >
+                    <!-- star icon -->
+                     <div>
+                        <i class="fa-solid fa-star text-yellow-500 text-4xl"></i>
+                    </div>
+                    <!-- text -->
+                     <div>
+                        <h1 class="font-extrabold text-3xl">5.00</h1>
+                        <p class="font-semibold text-lg text-[#777777]">Trust Pilot Ratings</p>
+                     </div>
+                 </div>
+            </div>
+        </section>
+
 
     </main>
     <footer>
