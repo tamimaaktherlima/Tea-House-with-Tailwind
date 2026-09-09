@@ -2,7 +2,12 @@
 module.exports = {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      // customize font-family create for tailwind
+      fontFamily:{
+        manrope: ['Manrope', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }
