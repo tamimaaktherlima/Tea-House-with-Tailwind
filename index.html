@@ -29,7 +29,8 @@
     <header>
         <!-- <h1>Hello</h1> -->
     </header>
-    <main class="max-w-screen-xl mx-auto p-16">
+
+    <main class="max-w-screen-xl mx-auto p-8 md:p-16">
         <!-- Banner Section -->
         <section class="grid grid-cols-1 md:grid-cols-2 gap-3 ">
             <div class="space-y-7">
@@ -48,7 +49,7 @@
                 </div>
                 <!-- card -->
                 <div
-                    class="flex items-center bg-white shadow-lg rounded-lg px-5 py-7 gap-3 absolute top-45 md:top-80 md:left-32 lg:left-20">
+                    class="flex items-center bg-white shadow-lg rounded-lg px-5 py-7 gap-3 absolute top-30 md:top-70 md:left-32 lg:left-20">
                     <!-- star icon -->
                     <div>
                         <i class="fa-solid fa-star text-yellow-500 text-4xl"></i>
@@ -173,12 +174,12 @@
 
                     <!-- Middle card -->
                     <div class="absolute z-10 top-45 md:top-52">
-                        <div class="h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-7">
+                        <div class="w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-7">
                             <!-- image -->
                             <div class="absolute -top-5 -left-5 bg-white rounded-full">
                                 <img class="p-1" src="images/client.png" alt="">
                             </div>
-                            <div>
+                            <div class="p-5">
                                 <p class="text-[#777777] mb-5">We are providing the best and suitable home insurance
                                     services for the people who are interested to treatment
                                 </p>
@@ -190,12 +191,12 @@
 
                     <!-- Top card -->
                     <div
-                        class="relative left-8 md:left-32 h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-7 opacity-40">
+                        class="relative left-8 md:left-32 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-7 opacity-40">
                         <!-- image -->
                         <div class="absolute -top-5 -left-5 bg-white rounded-full">
                             <img class="p-1" src="images/client.png" alt="">
                         </div>
-                        <div>
+                        <div class="p-5">
                             <p class="text-[#777777] mb-5">We are providing the best and suitable home insurance
                                 services for the people who are interested to treatment
                             </p>
@@ -206,12 +207,12 @@
 
                     <!-- bottom card -->
                     <div
-                        class="relative left-8 md:left-32 top-10 h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-7 opacity-40">
+                        class="relative left-8 md:left-32 top-10 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-7 opacity-40">
                         <!-- image -->
                         <div class="absolute -top-5 -left-5 bg-white rounded-full">
                             <img class="p-1" src="images/client.png" alt="">
                         </div>
-                        <div>
+                        <div class="p-5">
                             <p class="text-[#777777] mb-5">We are providing the best and suitable home insurance
                                 services for the people who are interested to treatment
                             </p>
@@ -269,24 +270,74 @@
         </section>
 
     </main>
+
     <footer class="bg-orange-100 text-[#494949]">
         <div class="max-w-screen-xl mx-auto py-10 px-4 md:px-16">
 
-            <div class="flex justify-between">
+            <div class="flex justify-between mb-8">
                 <!-- logo -->
                 <img class="mb-8" src="./images/cup.png" alt="">
 
-                <div class="flex items-center gap-2">
+                <div class="flex items-center  md:gap-2">
                     <h1>Ready to get strated?</h1>
                     <button
-                        class="bg-gradient-to-r from-orange-400 to-red-600 text-white px-3 py-2 rounded-xl font-bold text-xl">Get
+                        class="bg-gradient-to-r from-orange-400 to-red-600 text-white p-1 md:px-3 md:py-2 rounded-xl font-bold md:text-xl">Get
                         Ready</button>
                 </div>
             </div>
 
-            <!-- Links -->
-            <div>
-                
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+                <!-- First Links column -->
+                <div class="space-y-5">
+                    <h3 class="font-semibold text-xl text-black">Quick Links</h3>
+                    <ul class="space-y-4">
+                        <li class="hover:text-orange-600 cursor-pointer text-[#494949]">Home</li>
+                        <li class="hover:text-orange-600 cursor-pointer text-[#494949]">About Us</li>
+                        <li class="hover:text-orange-600 cursor-pointer text-[#494949]">Insurance</li>
+                        <li class="hover:text-orange-600 cursor-pointer text-[#494949]">Privacy Policy</li>
+                    </ul>
+                </div>
+
+                <!-- Second Links column -->
+                <div class="space-y-5">
+                    <h3 class="font-semibold text-xl text-black">Our Service</h3>
+                    <ul class="space-y-4">
+                        <li class="hover:text-orange-600 cursor-pointer text-[#494949]">Life Insurance</li>
+                        <li class="hover:text-orange-600 cursor-pointer text-[#494949]">Car Insurance</li>
+                        <li class="hover:text-orange-600 cursor-pointer text-[#494949]">Health Insurance</li>
+                        <li class="hover:text-orange-600 cursor-pointer text-[#494949]">House Insurance</li>
+                    </ul>
+                </div>
+
+                <!-- Third Links column -->
+                <div class="space-y-5">
+                    <h3 class="font-semibold text-xl text-black">Help</h3>
+                    <ul class="space-y-4">
+                        <li class="hover:text-orange-600 cursor-pointer text-[#494949]">FAQs</li>
+                        <li class="hover:text-orange-600 cursor-pointer text-[#494949]">Contact Us</li>
+                        
+                    </ul>
+                </div>
+
+                <!-- Fourth Links Column -->
+                 <div class="space-y-10">
+                    <h3 class="font-semibold text-2xl  text-black">Subscribe to our <br> newsletter</h3>
+                    
+                    <div>
+                        <input placeholder="Email Address" type="email" class="border-b-2 w-4/5">
+
+                        <!-- chevron right icone -->
+                         <i class="fa-solid fa-angle-right bg-gradient-to-r from-orange-400 to-red-600 text-white rounded-full w-7 h-7 p-1 inline-flex"></i>
+                    </div>
+
+                    <!-- social media icon -->
+                    <div class="flex w-2/5 justify-center space-x-6">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </div>
+                 </div>
+                 
             </div>
         </div>
     </footer>
